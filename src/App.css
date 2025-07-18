@@ -1,5 +1,6 @@
 #root {
   margin: 16px;
+  height: 150px
 }
 
 ul {
@@ -13,4 +14,17 @@ li {
   padding: 8px;
   border: whitesmoke 3px solid;
   border-radius: 8px;
+  width: 150px;
+  height: 150px;
+}
+.fighter-img-wrapper {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.fighter-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
 }
